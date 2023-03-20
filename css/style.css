@@ -93,6 +93,35 @@ section{
     margin:20px auto;
 }
 
+/* footer rules */
+
+footer{
+    background-color: rgb(7, 7, 75);
+    width: 100%;
+    min-height: 800px;
+}
+
+#footer-conteiner{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+strong{
+    color: aqua;
+}
+
+.flex-conteiner-footer{
+    padding: 50px;
+    
+}
+
+
+
+
+
 
 /* debug rules */
 
@@ -123,4 +152,17 @@ section{
             width: 400px;
             background-color: blue;
             
+        }
+
+        #language{
+            background-color: brown;
+            width: 80px;
+            height: 30px;
+        }
+
+        #icons{
+            background-color: brown;
+            width: 80px;
+            height: 30px;
+            display: block;
         }
