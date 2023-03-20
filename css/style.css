@@ -25,12 +25,14 @@ h2{
     font-size: 50px;
 }
 
+span{
+    display: inline-block;
+}
+
 
 /* header rules */
 
-header{
-    
-}
+
 
     /* nav rules */
     header nav {
@@ -58,10 +60,38 @@ header{
         text-align: center;
     }
 
+
 /* main rules */
 
+section{
+    
+    min-height: 1000px;
+    
+}
 
+.flex-conteiner{
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.last-conteiner{
+    text-align: center;
+}
+
+.grey{
+    background-color: lightslategray;
+}
+
+.text-section{
+    width: 30%;
+    text-align: center;
+}
+
+.last-image{
+    margin:20px auto;
+}
 
 
 /* debug rules */
@@ -88,3 +118,9 @@ header{
             background-color: blueviolet;
         }
 
+        .image{
+            height: 400px;
+            width: 400px;
+            background-color: blue;
+            
+        }
