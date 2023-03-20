@@ -5,6 +5,7 @@
     box-sizing: border-box;
     list-style: none;
     font-size: 30px;
+    line-height: 65px;
 }
 
 button {
@@ -20,6 +21,10 @@ a{
     cursor: pointer;
 }
 
+h2{
+    font-size: 50px;
+}
+
 
 /* header rules */
 
@@ -28,7 +33,6 @@ header{
 }
 
     /* nav rules */
-
     header nav {
         display: flex;
         justify-content: space-around;
@@ -47,7 +51,16 @@ header{
         background-color: white;
     }
 
-    
+    /* last part header */
+    #hero{
+        width: 60%;
+        margin: 250px auto;
+        text-align: center;
+    }
+
+/* main rules */
+
+
 
 
 
@@ -64,3 +77,14 @@ header{
         header nav ul li {
             background-color: bisque;
         }
+
+        /* last part header */
+
+        h2{
+            background-color: aquamarine;
+        }
+
+        p{
+            background-color: blueviolet;
+        }
+
