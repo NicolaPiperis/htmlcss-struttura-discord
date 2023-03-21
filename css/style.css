@@ -3,10 +3,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
 }
 
 body{
-    list-style: none;
+    
     font-size: 30px;
     line-height: 65px;
 }
@@ -19,9 +20,15 @@ button {
     font-size: 25px;
 }
 
-a{
+header a{
     text-decoration: none;
     color: black;
+    cursor: pointer;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
     cursor: pointer;
 }
 
@@ -92,6 +99,11 @@ span{
 
 .last-image{
     margin:20px auto;
+}
+
+.last-conteiner p {
+    width: 60%;
+    margin: auto;
 }
 
 /* footer rules */
@@ -186,4 +198,8 @@ footer button{
             width: 80px;
             height: 30px;
             display: block;
+        }
+
+        *{
+            border: solid 1px black;
         }
